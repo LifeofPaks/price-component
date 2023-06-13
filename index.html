@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+
+  <main class="container">
+    <div class="top">
+      <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required. </p>
+      </header>
+    </div>
+
+    <div class="price-container">
+      <div class="price-wrapper">
+        <div class="title">
+          <p class="views">100<span>K PAGEVIEWS</span> </p>
+          <div class="planxamount">
+            <h3>$<span class="amount">16.00</span> </h3>
+            <span class="plan">/month</span>
+          </div>
+          
+        </div>
+        <div class="progressbar">
+              <input type="range" min="1" max="5" step="1" value="3" class="range"> 
+
+          <!-- <div class="slider-icon-wrapper">
+            <img src="images/icon-slider.svg" alt="" class="slider-icon">
+          </div> -->
+        </div>
+
+        <div class="planxamount mobile">
+          <h3>$ <span  class="amount mobile"> 0.00</span> </h3>
+            <span class="plan mobile">/month</span>
+        </div>
+
+        <div class="billing-container">
+
+          <div class="monthlyxtoggle">
+            <p class="monthly">Monthly Billing</p>
+            <div class="toggle-billing">
+              <div class="toggler"></div>
+            </div>
+          </div>
+       
+          <div class="yearly-billing-container">
+            <p class="yearly">Yearly Billing</p>
+            <p class="discount">25% discount</p>
+            <p class="discount mobile">-25%</p>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="cta-container">
+          <div class="cta">
+            <div class="action-wrapper">
+              <img src="images/icon-check.svg" alt="" class="check-icon">
+              <p>Unlimited websites</p>
+            </div>
+
+            <div class="action-wrapper">
+              <img src="images/icon-check.svg" alt="" class="check-icon">
+              <p>100% data ownership</p>
+            </div>
+
+            <div class="action-wrapper">
+              <img src="images/icon-check.svg" alt="" class="check-icon">
+              <p> Email reports</p>
+            </div>
+          </div>
+          <button class="start-trial-btn"> Start my trial </button>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </main>  
+  <script src="script.js"></script>
+</body>
+</html>
